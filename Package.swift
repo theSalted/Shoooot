@@ -5,15 +5,15 @@ import PackageDescription
 
 
 let package = Package(
-    name: "PlaydateKitTemplate",
+    name: "Shoooot",
     platforms: [.macOS(.v14)],
-    products: [.library(name: "PlaydateKitTemplate", targets: ["PlaydateKitTemplate"])],
+    products: [.library(name: "Shoooot", targets: ["Shoooot"])],
     dependencies: [
         .package(url: "https://github.com/finnvoor/PlaydateKit.git", branch: "main"),
     ],
     targets: [
         .target(
-            name: "PlaydateKitTemplate",
+            name: "Shoooot",
             dependencies: [
                 .product(name: "PlaydateKit", package: "PlaydateKit")
             ],
